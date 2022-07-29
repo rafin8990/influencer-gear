@@ -1,0 +1,105 @@
+
+/* header part   */
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.influence{
+    margin-left: 60px;
+    font-size: 30px ;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+   margin-right: 60px;
+}
+nav ul li{
+    margin-left: 40px;
+}
+nav ul a{
+    text-decoration: none;
+}
+/* text and image part  */
+.flexs{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    margin-left: 60px;
+}
+.influencer{
+    font-size: 50px;
+}
+.half-width img{
+    width: 40%;
+}
+.link{
+    text-decoration: none;
+    background-color:  red;
+    padding: 10px 40px;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+}
+.camera{
+    background-image: url(Circle-design.svg);
+    margin-left: 10%;
+    
+}
+/* logo bar  */
+.logo-ber{
+    margin-top: 150px;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+.logo{
+    margin-left: 100px;
+}
+hr{
+    width: 40%;
+    color: rgb(245, 224, 224);
+}
+/* popular collection  */
+.container{
+    margin-top: 150px;
+}
+
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+.collection{
+    box-shadow: 2px 2px 2px 2px gray;
+    margin-left: 30px;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.collection img{
+    width: 90%;
+}
+.fa-star, .fa-star-half-stroke{
+    color:gold
+    
+}
+.distance{
+    margin-left: 20px;
+}
+.see-more{
+    text-align: right;
+    padding-right: 200px;
+    color: red;
+}
